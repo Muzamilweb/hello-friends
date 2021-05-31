@@ -1,0 +1,190 @@
+
+
+
+nav
+{
+	margin-top:40px;
+	margin-bottom:37px;
+}
+.logo ul li
+{
+	float:left;
+	margin-right: 10px;	
+}
+.logo ul li:last-child
+{
+	padding-top: 20px;
+}
+.nav-items
+{
+	text-align:right;
+	padding-top:20px;
+}
+.slideshow
+{
+	position:relative;
+	margin-bottom:20px;
+}
+sliders
+{
+}
+.avialable
+{
+	position: absolute;
+	top: -30px;
+	right: -20px;
+}
+.product-bg
+{
+	background: url(file:///E|/web_development/tapbot/assets/images/product_promo_bg.jpg);
+	margin-bottom:114px;
+	height:180px;
+	
+	
+	
+}
+.product-bg h2
+{
+	font-family:'Montserrat';
+	font-size:14px;
+	text-align:center;
+	font-weight:normal;
+	text-transform:uppercase;
+	text-shadow: 1px 1px 1px #c8c8ca;
+	color:#5b5a5b;
+	margin-bottom: 5px;
+}
+.product-bg p
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-align:center;
+	text-shadow: 1px 1px 1px #fff;
+	
+}
+footer	
+{
+	background:#212122;
+	height:400px;
+	position:relative;
+}
+.footer-col
+{
+	background:url(file:///E|/web_development/tapbot/assets/images/company_promo_bg.png);
+	height:180px;
+	margin-top: 40px;
+}
+
+.blog, .about, .help, .twitter
+{
+	position:absolute;
+	top: -60px;
+}
+
+.footer-col p
+{
+	padding: 10px;
+	color:#777777;
+	text-shadow:1px 1px 1px #222222;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	letter-spacing: 1px;
+	line-height:20px;
+}
+
+.footer-col h2
+{
+	padding-top: 105px;
+	color:#c1c1c2;
+	text-shadow:1px 1px 1px #000;
+	font-family:'Montserrat';
+	font-size: 12px;
+	font-weight: normal;
+	text-align:center;
+}
+.search-area
+{
+	background:url(file:///E|/web_development/tapbot/assets/images/mailinglist_bg.gif);
+}
+.footer-row
+{
+	background: url(file:///E|/web_development/tapbot/assets/images/mailinglist_bg.gif);
+	margin-top:40px;
+	height:60px;
+	width:940px;
+	position:absolute;
+	
+}
+
+
+.footer-row p
+{
+	padding-top:22px;
+	color:#666;
+	font-size:14px;
+	position: relative;
+	float:left;
+	margin-right:40px;
+}
+.footer-row h2
+{
+	position:relative;
+	font-size:14px;
+	float:left;
+	padding-top:24px;
+	margin-right:5px;
+	margin-left:90px;
+}
+
+.footer-row ul 
+{
+	float:left;
+	position:relative;
+	border-radius:10px;
+	outline:none;
+	width:290px;
+	padding-top:24px;
+	text-align:left;
+	padding: 10px;	
+		
+	
+}
+.email-field
+{
+	padding:8px;
+	width:250px;
+	border-radius: 8px;
+	ouline:none;
+	float:left
+}
+.footer-row ul li 
+{
+	position:relative;
+	float:right;
+	text-align:right;
+	
+	
+}
+.btns 
+{
+	float:right;
+	border-radius: 5px;
+	outline:none;
+	position:relative;
+	background:#d71400;
+	color:#FFF;
+	padding: 7px;
+	margin-left:60px;
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
