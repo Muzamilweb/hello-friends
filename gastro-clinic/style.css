@@ -1,0 +1,758 @@
+body{
+  font-family: 'Poppins', sans-serif;
+    color: #666666;
+    line-height: 24px;
+    overflow-x: hidden
+}
+header {
+    position: relative;
+    padding: 10px 0;
+}
+.navbar-nav {
+    margin-left: 40px;
+    margin-right: 15px;
+}
+.navbar-nav>a {
+    margin-right: 20px;
+    color: #333;
+}
+.footer-logo img {
+    margin-bottom: 30px;
+}
+
+.footer-para {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    color: #666666;
+    border-radius: 50%;
+    border: 1px solid;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.875rem;
+    display: flex;
+}
+
+.footer-icon a {
+    margin-right: 15px;
+}
+
+.footer-icon {
+    margin-top: 30px;
+    display: flex;
+}
+.footer-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.link-content {
+    list-style: none;
+    padding: 0 0 20px;
+}
+.link-content>li, .link-content>li a{
+  margin-bottom: 15px;
+  color: #333;
+}
+.footer-manu-container{
+  margin-top: 30px;
+}
+.list-box{
+    line-height: 40px;
+    list-style: none;
+    font-size: 18px;
+}
+footer{
+  background: #ebebeb;
+    padding-top: 50px
+}
+.banner-section {
+    background: url(../img/inner-banner.png) no-repeat;
+    height: 400px;
+    display: flex;
+    margin-bottom: 30px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+.health-title {
+    font-size: 3.125rem;
+}
+
+h1,h2,h3,h4,h5 p {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #333333;
+    font-weight: 600;
+}
+.health-para {
+    padding: 15px;
+}
+.services-area {
+    padding-top: 90px;
+}
+.services-area h2 {
+    padding: 20px;
+}
+.service-btn {
+    display: flex;
+    border-radius: 27px;
+    background: #022740;
+    width: max-content;
+    height: 45px;
+    top: -25px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: relative;
+    font-size: 0.875rem;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.services-section {
+    background: url(../img/Service_Bg.png);
+}
+.btn.btn-primary {
+    background: #022740;
+    width: 170px;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 27px;
+    color: #fff;
+    border: none;
+    margin: 0 auto;
+}
+.home-care {
+    padding: 0 0 60px;
+}
+.booking-form-area {
+    padding: 35px 50px 0;
+    text-align: center;
+}
+.booking-title {
+    font-size: 2.25rem;
+    margin-bottom: 20px !important;
+}
+.booking-area {}
+.form-area {
+    height: 45px;
+    border: transparent;
+    background: #f4f4f4;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 20px;
+    margin-bottom: 30px !important;
+    padding: 0 20px;
+    width: 90%;
+}
+.status-circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    align-items: center;
+    background: #022740;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 55px 0;
+}
+.status-title {
+    color: #fff;
+    margin-bottom: 0 !important;
+}
+.data-box {
+    padding: 45px;
+    background: url(../img/Long_Image.png);
+}
+.blogs-area {
+    padding: 70px 0;
+}
+.blogs-title {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.blogs-area p {
+  margin-bottom: 30px;
+}
+.client-title {
+    text-align: center;
+    font-size: 2.25rem;
+    font-weight: 700;
+    padding: 50px;
+}
+
+.client-text-box {
+    background: #F4F4F0;
+    min-height: 100%;
+    display: flex;
+    position: relative;
+    height: 100%;
+    justify-content: center;
+    padding: 0 30px;
+    border-radius: 5px;
+    transition: all .5s ease;
+    margin: 0 10px;
+}
+
+.client-text-box p {
+    padding: 40px 22px 100px 22px;
+}
+.client-side {
+    background: url(../img/Testimonials_Bg.png) center center no-repeat;
+    padding: 60px 0px 40px;
+}
+.client-text-center {
+    background: #022740;
+    min-height: 100%;
+    display: flex;
+    position: relative;
+    height: 100%;
+    justify-content: center;
+    padding: 0 30px;
+    border-radius: 5px;
+    transition: all .5s ease;
+    margin: 0 10px;
+    color: #fff;
+    height: 100%;
+}
+
+.client-text-center p {
+    padding: 40px 22px 100px 22px;
+    border-bottom: 1px solid;
+}
+.text-box {}
+
+.news-box {position: relative;}
+
+.news-box .text-box {
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    padding: 0 20px;
+}
+
+.blog-date p {
+    width: 50px;
+    height: 50px;
+    background: #022740;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 0.875rem;
+    color: #fff;
+    font-weight: 500;
+    margin-right: 15px;
+}
+
+.blog-detail p {
+    font-size: 12px;
+    color: #fff;
+    line-height: 18px;
+    margin-top: 10px;
+}
+.blog-detail h4 {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #fff;
+}
+.booking-area {
+    background: #fff;
+    box-shadow: 2px 5px 35px 20px rgb(243 243 243);
+    position: relative;
+    min-height: 500px;
+}
+.booking-tag {
+    padding: 50px 0 50px;
+}
+.text-aera p {
+    margin-top: 40px;
+}
+img.img-fluid {
+    margin-top: 0px;
+}
+.choose-us-text h2 {
+    margin-top: 60px;
+    margin-bottom: 20px !important;
+}
+
+.choose-us-text ul li::before {
+  content: "";
+  position: relative;
+  width: 6px;
+  height: 6px;
+  background: #022740;
+  top: 8px;
+  left: -15px;
+  border-radius: 50%;
+}
+
+.choose-us-text ul li {
+    font-size: 1rem;
+    line-height: 26px;
+    position: relative;
+    margin-bottom: 10px;
+    left: -20px;
+}
+.banner-title {
+    text-align: center;
+    color: #fff;
+    font-size: 3.4375rem;
+}
+.choose-detail {padding: 80px 0 80px;}
+.clinics-detail {
+    margin-top: 30px;
+}
+
+/*****************************SERVICES-SECTION*********************************/
+
+.service-item .service-item-image {
+    top: 0;
+    bottom: 0;
+    width: 60%;
+    height: 100%;
+    position: relative;
+    z-index: -1;
+}
+
+.service-item {
+    height: 500px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.service-item .service-item-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.service-item-content  h3 {
+    color: #022740;
+    font-size: 24px;
+    padding: 15px;
+}
+
+.service-item-one .service-item-content {
+    margin-left: auto;
+    box-shadow: 25px 0px 30px rgb(0 0 0 / 5%);
+}
+
+.service-item .service-item-content {
+    display: block;
+    width: 50%;
+    background: #fff;
+    height: 80%;
+    padding: 40px 20px;
+
+}
+.service-item .service-item-image{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 60%;
+  height: 100%;
+  z-index: -1;
+}
+.service-btn {
+    margin: unset;
+    padding: 0 30px;
+    margin-top: 50px;
+}
+.service-item-tow .service-item-image {
+    right: 0;
+}
+.service-item-one .service-item-image {
+    left: 0;
+}
+.service-item-tow .service-item-content {
+    box-shadow: -25px 0px 30px rgb(0 0 0 / 5%);
+}
+
+/***********************WEIGHT LOSS ENDOSCOPY PROCEDURES***************************/
+
+h2.banner-title-weight {
+    color: #fff;
+    font-size: 2.9375rem;
+}
+.weight-text {
+    padding: 30px 0 80px;
+}
+.weight-text p {
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+/***************************BLOG STYLE.CSS***************************************/
+
+.blog-img img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 15px !important;
+}
+
+.blog-item h3 {
+    font-size: 14px;
+    margin: 0;
+    line-height: normal;
+}
+
+.blog-meta {
+    padding-bottom: 10px 0 10px;
+}
+
+.blog-meta ul li {
+    color: #666666;
+    font-size: 12px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.blog-detail p {
+  
+    color: #666666;
+    font-size: 13px;
+    line-height: normal;
+}
+
+.blog-box {
+    position: relative;
+    padding-left: 80px;
+    margin-bottom: 100px;
+}
+.bi-date p {
+    width: 70px;
+    height: 70px;
+    background: #022740;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    margin-right: 15px;
+    padding: 10px;
+}
+.bi-date {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+/****************************CONTACT US STYLE******************************/
+.contact-form-area{
+    height: 45px;
+    border: 1px solid #ebebeb;
+    font-size: 14px;
+    font-weight: 300;
+    border-radius: 50px;
+    margin-bottom: 20px !important;
+    padding: 12px 25px;
+    width: 90%;
+    transition: all 5s;
+    color: #b3b3b3;
+    outline: none;
+    display: block;
+}
+textarea.contact-form-area {
+    resize: none;
+    height: 100px;
+}
+.service-item-one .service-item-contact {
+    margin-left: auto;
+    box-shadow: 25px 0px 30px rgb(0 0 0 / 5%);
+}
+
+.service-item .service-item-contact {
+    display: block;
+    width: 50%;
+    background: #fff;
+    height: 100%;
+    padding: 40px 20px;
+
+}
+.service-item-tow .service-item-contact {
+    box-shadow: -25px 0px 30px rgb(0 0 0 / 5%);
+}
+.service-item-tow .service-item-image {
+    right: 0;
+}
+.service-item-one .service-item-image {
+    left: 0;
+}
+
+
+@media (max-width: 1199px){
+  .navbar-nav>a {
+    margin-right: 10px;
+    padding: 0 !important;
+  }
+  .health-title {
+    font-size: 36px;
+  }
+  .text-aera p {
+    margin-top: 20px;
+    font-size: 14px;
+}
+.blogs-area {
+    padding: 50px 0 0;
+}
+.client-text-center {
+    padding: 40px 20px;
+    margin: 0;
+}
+.client-text-box {
+    height: auto;
+    min-height: auto;
+    padding: 40px 20px;
+    margin: 0;
+}
+.client-text-center p {
+    padding: 0;
+}
+.client-text-box p {
+    padding: 0;
+}
+
+.footer-para {
+    font-size: 14px;
+    line-height: normal;
+}
+
+.footer-para>br {
+    display: none;
+}
+
+.list-box {
+    font-size: unset;
+    line-height: normal;
+    padding: 0;
+}
+}
+@media (max-width: 991px){
+  header .container {
+    max-width: 100%;
+}
+a.navbar-brand {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-nav {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navbar-nav>a {
+    font-size: 13px;
+}
+
+.health-title {
+    font-size: 24px;
+}
+
+.banner-section {
+    height: 300px;
+}
+
+.health-para {
+    padding: 0;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.service-btn {
+    padding: 0 10px;
+    width: auto;
+    text-align: center;
+    font-size: 12px;
+}
+
+.services-area {
+    padding-top: 40px;
+}
+
+.services-area p {
+    font-size: 14px;
+}
+
+.services-area h2 {
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.home-care {
+    padding: 0 0 30px;
+}
+
+.booking-form-area {
+    padding: 20px 15px 0;
+}
+
+.booking-title {
+    font-size: 24px;
+}
+
+p.booking-para {
+    font-size: 14px;
+}
+
+.booking-area img.img-fluid {
+    height: 100%;
+    object-fit: cover;
+}
+
+.contact-form .btn.btn-primary {
+    margin: 0 auto;
+}
+
+.contact-form {}
+
+.status-circle {
+    width: 150px;
+    height: 150px;
+}
+
+.status-circle p {
+    font-size: 12px;
+    line-height: normal;
+}
+
+.status-title {
+    font-size: 20px;
+}
+
+.client-title {
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.client-text-box p {
+    font-size: 13px;
+}
+
+.client-text-center p {
+  font-size: 13px;
+}
+.main-news .row {
+    justify-content: center;
+}
+.news-box {
+    margin-bottom: 20px;
+}
+}
+@media (max-width: 767px){
+ button.navbar-toggler {
+    padding: 0;
+    min-width: 40px;
+    margin: 0;
+    min-height: 0px;
+    background-color: #0f2740;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border: 0;
+    margin-right: 15px;
+}
+
+header .container {padding-left: 0;padding-right: 0;}
+
+a.navbar-brand {
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.navbar-toggler-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 30px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.navbar-nav {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-nav>a {
+    background: #ccc;
+    margin: 0;
+    font-size: 14px;
+    padding: 10px 15px !important;
+    display: flex !important;
+}
+
+.navbar-nav>a:not(:last-child) {
+    border-bottom: 1px dashed #0f2740;
+}
+
+.navbar-nav>a.active {
+    background: #0f2740;
+    color: #FFF;
+}
+
+span.seach-icon {
+    display: none;
+}
+
+header {
+    padding: 10px 0 0;
+}
+.status-circle {margin-bottom: 20px;}
+
+.client-text-box {
+    padding: 20px 10px;
+}
+
+.client-text-center {
+    padding: 20px 10px;
+}
+.news-box img {
+    width: 100%;
+    height: 300px;
+}
+
+.client-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+ul.list-box {
+    /* text-align: center; */
+}
+
+ul.list-box li {
+    font-size: 14px;
+}
+
+.footer-icon {
+    padding-left: 0;
+} 
+}
+@media (max-width: 576px){
+  .form-area {
+    width: 100%;
+    margin-bottom: 15px !important;
+}
+}
